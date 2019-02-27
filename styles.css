@@ -1,7 +1,7 @@
 body {
 
-  color: rgb(244,176,66);
-  font-family: arial;
+  color: rgb(255,153,102);
+  font-family: Helvetica;
   margin: 0px;
 }
 
@@ -12,6 +12,7 @@ div {
 
 h1, h2 {
   text-align: center;
+  font-family: Arial black;
 }
 
 h1{
@@ -22,14 +23,18 @@ h2 {
 }
 
 img{
+
   display: flex;
   padding: 20px;
   margin: 0 auto;
   border-radius: 130px;
-  width:200px;
-height: 200px;
+  width:450px;
+height: 450px;
 }
-
+.carouselExampleSlidesOnly{
+height: 100px
+right:0;
+}
 p {
   width: 40%;
   margin: 10vh 10vw;
@@ -65,6 +70,7 @@ div.contrast {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
 }
 
 ol{
