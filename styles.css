@@ -1,6 +1,6 @@
 body {
 
-  color: rgb(255,153,102);
+  color: rgb(232,172,164);
   font-family: Helvetica;
   margin: 0px;
 }
@@ -56,15 +56,17 @@ ul {
 
 li#lower {
   margin-top: 7%;
+  font-style: Arial;
 
 }
 
 li#lowest {
   margin-bottom: 14%;
+  font style: Arial;
 }
 
 div.contrast {
-  background-color: rgb(244,176,66);
+  background-color: rgb(249,230,207);
   color: rgb(255,255,255);
   display: flex;
   justify-content: center;
