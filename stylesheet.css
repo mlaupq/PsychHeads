@@ -1,0 +1,89 @@
+body {
+  color: rgb(232,172,164);
+  font-family: Helvetica;
+  margin: 10vh 10vw;
+  font-size: 2em;
+}
+
+h2{
+  align-items: center;
+  /*align-items: flex-start;*/
+  color: rgb(232,172,164);
+  font-family: arial black;
+  font-size: 4em;
+}
+
+
+h3{
+  align-items: center;
+  text-align: center;
+  color: rgb(232,172,164);
+  font-size: 2em;
+  font-style: italic;
+}
+
+p {
+  text-align: center;
+
+}
+.alt logo {  display: flex;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 130px;
+  align-items: center;
+}
+.carousel {
+height: 800px;
+width: 1000px;
+display: flex;
+align-items: center;
+margin:auto;
+}
+.carousel-inner {
+    height: 600px;
+    overflow:hidden;
+  }
+
+
+@media (min-width: 768px) {
+      .carousel-caption p {
+              margin-bottom: 20px;
+              font-size: 21px;
+              line-height: 1.4;
+      }
+  }
+.img{
+  display: flex;
+  padding: 20px;
+  margin: 0 auto;
+  width:1000px;
+  height: 1000px;
+}
+
+.h3 {
+  padding-bottom: 50px;
+}
+a {
+  color: rgb(66, 244, 232);
+}
+
+div.contrast {
+  background-color: rgb(232,172,164);
+  color: rgb(255,255,255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+}
+
+h4 {
+  text-decoration: underline;
+  font-style: serif;
+  font-style: italic
+}
+address {
+  font-size: 65%;
+  text-align: center;
+  padding-bottom: 0%;
+}
