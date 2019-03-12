@@ -1,0 +1,91 @@
+body {
+
+  color: rgb(232,172,164);
+  font-family: Helvetica;
+  margin: 0px;
+}
+
+div {
+  min-height: 100vh;
+  width: 100vw;
+}
+
+h1, h2 {
+  text-align: center;
+  font-family: Arial black;
+}
+
+h1{
+  font-size:5em; /*This is the font size*/
+}
+h2 {
+  font-size: 2, 5em;
+}
+
+img{
+
+  display: flex;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 130px;
+  width:450px;
+height: 450px;
+}
+.carouselExampleSlidesOnly{
+height: 100px
+right:0;
+}
+p {
+  width: 40%;
+  margin: 10vh 10vw;
+  font-size: 2em;
+}
+
+a {
+  color: rgb (0,0,0);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 10%;
+  font-size: 3em;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+li#lower {
+  margin-top: 7%;
+  font-style: Arial;
+
+}
+
+li#lowest {
+  margin-bottom: 14%;
+  font style: Arial;
+}
+
+div.contrast {
+  background-color: rgb(249,230,207);
+  color: rgb(255,255,255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+ol{
+  list-style: none;
+  display: flex;
+}
+
+li{
+  margin: 0 20px;
+  transition: o.6s ease;
+}
+
+li:hover {
+  font-size: 1.2em;
+  transition: 0.6s ease;
+}
